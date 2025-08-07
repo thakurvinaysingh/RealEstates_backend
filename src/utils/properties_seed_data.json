@@ -1,0 +1,536 @@
+[
+  {
+    "title": "Luxury Downtown Condo",
+    "address": "50 West 34th St, New York, NY",
+    "location": "New York, NY",
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2025-01-01T00:00:00Z",
+    "goalAmount": 2500000,
+    "currentAmount": 0,
+    "investorsCount": 0,
+    "propertyType": "residential",
+    "distribution": "Monthly",
+    "maxTerm": "24 months",
+    "annualReturn": "7.5%",
+    "images": [
+      "https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    ],
+    "gallery": [
+      "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
+    ],
+    "projectDescription": "High-rise condo in Manhattan.",
+    "reasonsToInvest": [
+      "Prime location",
+      "Luxury amenities",
+      "Strong rental demand"
+    ],
+    "financialTerms": {
+      "maxLoanTerm": "24 months",
+      "security": "1st-Rank Mortgage",
+      "annualReturn": "7.5%"
+    },
+    "tieredReturn": [
+      {
+        "range": "0-1 year",
+        "rate": "6%"
+      },
+      {
+        "range": "1-2 years",
+        "rate": "7.5%"
+      }
+    ],
+    "capitalGrowthSplit": [
+      {
+        "party": "Investor",
+        "pct": "80%"
+      },
+      {
+        "party": "Developer",
+        "pct": "20%"
+      }
+    ],
+    "owner": {
+      "name": "Downtown Realty Group",
+      "bio": "Experienced NYC developer",
+      "avatarUrl": "https://example.com/avatar.jpg"
+    },
+    "faqs": [
+      {
+        "question": "Is it tenant-occupied?",
+        "answer": "Yes, currently rented."
+      }
+    ],
+    "risks": "Market volatility may impact returns.",
+    "mapEmbedUrl": "https://maps.google.com/...",
+    "occupancyOptions": [
+      "Rental",
+      "Resale"
+    ],
+    "investmentOverview": "Solid residential investment in Manhattan",
+    "keyUpdates": [
+      {
+        "date": "2024-03-01T00:00:00Z",
+        "text": "Foundation completed",
+        "link": "https://example.com/update1"
+      }
+    ],
+    "reports": [
+      {
+        "title": "Valuation Report",
+        "desc": "Independent valuation",
+        "label": "Download",
+        "url": "https://example.com/valuation.pdf"
+      }
+    ],
+    "totalUnits": 10000,
+    "slotsCount": 100,
+    "slotsSold": 0,
+    "totalValue": 2500000
+  },
+  {
+    "title": "Property #2 - Luxury Downtown Condo",
+    "address": "20 West Street, Sample City",
+    "location": "Sample City",
+    "startDate": "2024-02-01T00:00:00Z",
+    "endDate": "2025-02-01T00:00:00Z",
+    "goalAmount": 2700000,
+    "currentAmount": 0,
+    "investorsCount": 0,
+    "propertyType": "residential",
+    "distribution": "Monthly",
+    "maxTerm": "24 months",
+    "annualReturn": "7.5%",
+    "images": [
+      "https://images.pexels.com/photos/1370706/pexels-photo-1370706.jpeg",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    ],
+    "gallery": [
+      "https://images.pexels.com/photos/1396124/pexels-photo-1396124.jpeg"
+    ],
+    "projectDescription": "High-rise condo in Manhattan.",
+    "reasonsToInvest": [
+      "Prime location",
+      "Luxury amenities",
+      "Strong rental demand"
+    ],
+    "financialTerms": {
+      "maxLoanTerm": "24 months",
+      "security": "1st-Rank Mortgage",
+      "annualReturn": "7.5%"
+    },
+    "tieredReturn": [
+      {
+        "range": "0-1 year",
+        "rate": "6%"
+      },
+      {
+        "range": "1-2 years",
+        "rate": "7.5%"
+      }
+    ],
+    "capitalGrowthSplit": [
+      {
+        "party": "Investor",
+        "pct": "80%"
+      },
+      {
+        "party": "Developer",
+        "pct": "20%"
+      }
+    ],
+    "owner": {
+      "name": "Downtown Realty Group",
+      "bio": "Experienced NYC developer",
+      "avatarUrl": "https://example.com/avatar.jpg"
+    },
+    "faqs": [
+      {
+        "question": "Is it tenant-occupied?",
+        "answer": "Yes, currently rented."
+      }
+    ],
+    "risks": "Market volatility may impact returns.",
+    "mapEmbedUrl": "https://maps.google.com/...",
+    "occupancyOptions": [
+      "Rental",
+      "Resale"
+    ],
+    "investmentOverview": "Solid residential investment in Manhattan",
+    "keyUpdates": [
+      {
+        "date": "2024-03-01T00:00:00Z",
+        "text": "Foundation completed",
+        "link": "https://example.com/update1"
+      }
+    ],
+    "reports": [
+      {
+        "title": "Valuation Report",
+        "desc": "Independent valuation",
+        "label": "Download",
+        "url": "https://example.com/valuation.pdf"
+      }
+    ],
+    "totalUnits": 10000,
+    "slotsCount": 100,
+    "slotsSold": 0,
+    "totalValue": 2700000
+  },
+  {
+    "title": "Property #3 - Luxury Downtown Condo",
+    "address": "30 West Street, Sample City",
+    "location": "Sample City",
+    "startDate": "2024-02-01T00:00:00Z",
+    "endDate": "2025-02-01T00:00:00Z",
+    "goalAmount": 2800000,
+    "currentAmount": 0,
+    "investorsCount": 0,
+    "propertyType": "residential",
+    "distribution": "Monthly",
+    "maxTerm": "24 months",
+    "annualReturn": "7.5%",
+    "images": [
+      "https://images.pexels.com/photos/1370707/pexels-photo-1370707.jpeg",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    ],
+    "gallery": [
+      "https://images.pexels.com/photos/1396125/pexels-photo-1396125.jpeg"
+    ],
+    "projectDescription": "High-rise condo in Manhattan.",
+    "reasonsToInvest": [
+      "Prime location",
+      "Luxury amenities",
+      "Strong rental demand"
+    ],
+    "financialTerms": {
+      "maxLoanTerm": "24 months",
+      "security": "1st-Rank Mortgage",
+      "annualReturn": "7.5%"
+    },
+    "tieredReturn": [
+      {
+        "range": "0-1 year",
+        "rate": "6%"
+      },
+      {
+        "range": "1-2 years",
+        "rate": "7.5%"
+      }
+    ],
+    "capitalGrowthSplit": [
+      {
+        "party": "Investor",
+        "pct": "80%"
+      },
+      {
+        "party": "Developer",
+        "pct": "20%"
+      }
+    ],
+    "owner": {
+      "name": "Downtown Realty Group",
+      "bio": "Experienced NYC developer",
+      "avatarUrl": "https://example.com/avatar.jpg"
+    },
+    "faqs": [
+      {
+        "question": "Is it tenant-occupied?",
+        "answer": "Yes, currently rented."
+      }
+    ],
+    "risks": "Market volatility may impact returns.",
+    "mapEmbedUrl": "https://maps.google.com/...",
+    "occupancyOptions": [
+      "Rental",
+      "Resale"
+    ],
+    "investmentOverview": "Solid residential investment in Manhattan",
+    "keyUpdates": [
+      {
+        "date": "2024-03-01T00:00:00Z",
+        "text": "Foundation completed",
+        "link": "https://example.com/update1"
+      }
+    ],
+    "reports": [
+      {
+        "title": "Valuation Report",
+        "desc": "Independent valuation",
+        "label": "Download",
+        "url": "https://example.com/valuation.pdf"
+      }
+    ],
+    "totalUnits": 10000,
+    "slotsCount": 100,
+    "slotsSold": 0,
+    "totalValue": 2800000
+  },
+  {
+    "title": "Property #4 - Luxury Downtown Condo",
+    "address": "40 West Street, Sample City",
+    "location": "Sample City",
+    "startDate": "2024-02-01T00:00:00Z",
+    "endDate": "2025-02-01T00:00:00Z",
+    "goalAmount": 2900000,
+    "currentAmount": 0,
+    "investorsCount": 0,
+    "propertyType": "residential",
+    "distribution": "Monthly",
+    "maxTerm": "24 months",
+    "annualReturn": "7.5%",
+    "images": [
+      "https://images.pexels.com/photos/1370708/pexels-photo-1370708.jpeg",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    ],
+    "gallery": [
+      "https://images.pexels.com/photos/1396126/pexels-photo-1396126.jpeg"
+    ],
+    "projectDescription": "High-rise condo in Manhattan.",
+    "reasonsToInvest": [
+      "Prime location",
+      "Luxury amenities",
+      "Strong rental demand"
+    ],
+    "financialTerms": {
+      "maxLoanTerm": "24 months",
+      "security": "1st-Rank Mortgage",
+      "annualReturn": "7.5%"
+    },
+    "tieredReturn": [
+      {
+        "range": "0-1 year",
+        "rate": "6%"
+      },
+      {
+        "range": "1-2 years",
+        "rate": "7.5%"
+      }
+    ],
+    "capitalGrowthSplit": [
+      {
+        "party": "Investor",
+        "pct": "80%"
+      },
+      {
+        "party": "Developer",
+        "pct": "20%"
+      }
+    ],
+    "owner": {
+      "name": "Downtown Realty Group",
+      "bio": "Experienced NYC developer",
+      "avatarUrl": "https://example.com/avatar.jpg"
+    },
+    "faqs": [
+      {
+        "question": "Is it tenant-occupied?",
+        "answer": "Yes, currently rented."
+      }
+    ],
+    "risks": "Market volatility may impact returns.",
+    "mapEmbedUrl": "https://maps.google.com/...",
+    "occupancyOptions": [
+      "Rental",
+      "Resale"
+    ],
+    "investmentOverview": "Solid residential investment in Manhattan",
+    "keyUpdates": [
+      {
+        "date": "2024-03-01T00:00:00Z",
+        "text": "Foundation completed",
+        "link": "https://example.com/update1"
+      }
+    ],
+    "reports": [
+      {
+        "title": "Valuation Report",
+        "desc": "Independent valuation",
+        "label": "Download",
+        "url": "https://example.com/valuation.pdf"
+      }
+    ],
+    "totalUnits": 10000,
+    "slotsCount": 100,
+    "slotsSold": 0,
+    "totalValue": 2900000
+  },
+  {
+    "title": "Property #5 - Luxury Downtown Condo",
+    "address": "50 West Street, Sample City",
+    "location": "Sample City",
+    "startDate": "2024-02-01T00:00:00Z",
+    "endDate": "2025-02-01T00:00:00Z",
+    "goalAmount": 3000000,
+    "currentAmount": 0,
+    "investorsCount": 0,
+    "propertyType": "residential",
+    "distribution": "Monthly",
+    "maxTerm": "24 months",
+    "annualReturn": "7.5%",
+    "images": [
+      "https://images.pexels.com/photos/1370709/pexels-photo-1370709.jpeg",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    ],
+    "gallery": [
+      "https://images.pexels.com/photos/1396127/pexels-photo-1396127.jpeg"
+    ],
+    "projectDescription": "High-rise condo in Manhattan.",
+    "reasonsToInvest": [
+      "Prime location",
+      "Luxury amenities",
+      "Strong rental demand"
+    ],
+    "financialTerms": {
+      "maxLoanTerm": "24 months",
+      "security": "1st-Rank Mortgage",
+      "annualReturn": "7.5%"
+    },
+    "tieredReturn": [
+      {
+        "range": "0-1 year",
+        "rate": "6%"
+      },
+      {
+        "range": "1-2 years",
+        "rate": "7.5%"
+      }
+    ],
+    "capitalGrowthSplit": [
+      {
+        "party": "Investor",
+        "pct": "80%"
+      },
+      {
+        "party": "Developer",
+        "pct": "20%"
+      }
+    ],
+    "owner": {
+      "name": "Downtown Realty Group",
+      "bio": "Experienced NYC developer",
+      "avatarUrl": "https://example.com/avatar.jpg"
+    },
+    "faqs": [
+      {
+        "question": "Is it tenant-occupied?",
+        "answer": "Yes, currently rented."
+      }
+    ],
+    "risks": "Market volatility may impact returns.",
+    "mapEmbedUrl": "https://maps.google.com/...",
+    "occupancyOptions": [
+      "Rental",
+      "Resale"
+    ],
+    "investmentOverview": "Solid residential investment in Manhattan",
+    "keyUpdates": [
+      {
+        "date": "2024-03-01T00:00:00Z",
+        "text": "Foundation completed",
+        "link": "https://example.com/update1"
+      }
+    ],
+    "reports": [
+      {
+        "title": "Valuation Report",
+        "desc": "Independent valuation",
+        "label": "Download",
+        "url": "https://example.com/valuation.pdf"
+      }
+    ],
+    "totalUnits": 10000,
+    "slotsCount": 100,
+    "slotsSold": 0,
+    "totalValue": 3000000
+  },
+  {
+    "title": "Property #6 - Luxury Downtown Condo",
+    "address": "60 West Street, Sample City",
+    "location": "Sample City",
+    "startDate": "2024-02-01T00:00:00Z",
+    "endDate": "2025-02-01T00:00:00Z",
+    "goalAmount": 3100000,
+    "currentAmount": 0,
+    "investorsCount": 0,
+    "propertyType": "residential",
+    "distribution": "Monthly",
+    "maxTerm": "24 months",
+    "annualReturn": "7.5%",
+    "images": [
+      "https://images.pexels.com/photos/1370710/pexels-photo-1370710.jpeg",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    ],
+    "gallery": [
+      "https://images.pexels.com/photos/1396128/pexels-photo-1396128.jpeg"
+    ],
+    "projectDescription": "High-rise condo in Manhattan.",
+    "reasonsToInvest": [
+      "Prime location",
+      "Luxury amenities",
+      "Strong rental demand"
+    ],
+    "financialTerms": {
+      "maxLoanTerm": "24 months",
+      "security": "1st-Rank Mortgage",
+      "annualReturn": "7.5%"
+    },
+    "tieredReturn": [
+      {
+        "range": "0-1 year",
+        "rate": "6%"
+      },
+      {
+        "range": "1-2 years",
+        "rate": "7.5%"
+      }
+    ],
+    "capitalGrowthSplit": [
+      {
+        "party": "Investor",
+        "pct": "80%"
+      },
+      {
+        "party": "Developer",
+        "pct": "20%"
+      }
+    ],
+    "owner": {
+      "name": "Downtown Realty Group",
+      "bio": "Experienced NYC developer",
+      "avatarUrl": "https://example.com/avatar.jpg"
+    },
+    "faqs": [
+      {
+        "question": "Is it tenant-occupied?",
+        "answer": "Yes, currently rented."
+      }
+    ],
+    "risks": "Market volatility may impact returns.",
+    "mapEmbedUrl": "https://maps.google.com/...",
+    "occupancyOptions": [
+      "Rental",
+      "Resale"
+    ],
+    "investmentOverview": "Solid residential investment in Manhattan",
+    "keyUpdates": [
+      {
+        "date": "2024-03-01T00:00:00Z",
+        "text": "Foundation completed",
+        "link": "https://example.com/update1"
+      }
+    ],
+    "reports": [
+      {
+        "title": "Valuation Report",
+        "desc": "Independent valuation",
+        "label": "Download",
+        "url": "https://example.com/valuation.pdf"
+      }
+    ],
+    "totalUnits": 10000,
+    "slotsCount": 100,
+    "slotsSold": 0,
+    "totalValue": 3100000
+  }
+]
