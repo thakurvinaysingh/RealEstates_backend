@@ -1,9 +1,11 @@
 import mongoose from 'mongoose';
 const { Schema, model } = mongoose;
+import slugify from 'slugify';
 
 const propertySchema = new Schema({
   // ── Core fields ─────────────────────────────
   title: { type: String, required: true, index: true },
+  slug:  { type: String,  unique: true, index: true },
   address:          String,
   location:         { type: String, index: true },
   startDate:        Date,
@@ -51,6 +53,24 @@ const propertySchema = new Schema({
 }, {
     timestamps: true,
     versionKey: false
+});
+
+// Generate a unique slug on create OR when slug is missing.
+// Won’t change slug if title is edited later (good for stable URLs).
+propertySchema.pre('validate', async function(next) {
+  if (this.slug || !this.isNew) return next();
+
+  const base = slugify(this.title || '', { lower: true, strict: true });
+  if (!base) return next(new Error('Cannot generate slug: empty title'));
+
+  let slug = base;
+  let n = 2;
+  // ensure uniqueness
+  while (await this.constructor.exists({ slug })) {
+    slug = `${base}-${n++}`;
+  }
+  this.slug = slug;
+  next();
 });
 
 export default model('Property', propertySchema);

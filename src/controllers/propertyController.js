@@ -21,6 +21,7 @@ export const listProperties = async (req, res) => {
       return {
         id:         p._id,
         title:      p.title,
+        slug:       p.slug, 
         img:        p.images?.[0] || '',
         location:   p.location,
         investors:  p.investorsCount,
@@ -30,6 +31,8 @@ export const listProperties = async (req, res) => {
                       : '0',
         returnRate: p.annualReturn,
         type:       p.propertyType,
+        goalAmount: p.goalAmount,
+        maxTerm:    p.maxTerm,
         timeLeft    // ⏳ Days remaining
       };
     });
@@ -58,6 +61,19 @@ export const getProperty = async (req, res) => {
     res.status(200).json(prop);
   } catch (error) {
     console.error('Error in getProperty:', error.message);
+    res.status(500).json({ error: 'Server error while fetching property' });
+  }
+};
+
+
+// controllers/propertyController.js
+export const getPropertyBySlug = async (req, res) => {
+  try {
+    const prop = await Property.findOne({ slug: req.params.slug });
+    if (!prop) return res.status(404).json({ error: 'Property not found' });
+    res.json(prop);
+  } catch (e) {
+    console.error('Error in getPropertyBySlug:', e);
     res.status(500).json({ error: 'Server error while fetching property' });
   }
 };
