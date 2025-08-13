@@ -6,6 +6,12 @@ import {
   updateProperty,
   deleteProperty
 } from '../controllers/adminController.js';
+import {
+  listUsers,
+  setUserStatus,
+  getUserInvestmentDetails
+} from '../controllers/adminUserController.js';
+
 
 const router = express.Router();
 
@@ -15,5 +21,18 @@ const router = express.Router();
 router.post('/', uploadImages.array('images', 10), createProperty);
 router.put('/:id', uploadImages.array('images', 10), updateProperty);
 router.delete('/:id', deleteProperty);
+
+
+
+
+// ── User admin ────────────────────────────────
+// GET /api/admin/users?status=active|blocked
+router.get('/users', listUsers);
+
+// PATCH /api/admin/users/:id/status { status: "active" | "blocked" }
+router.patch('/users/:id/status', setUserStatus);
+
+// GET /api/admin/users/:userId/investments
+router.get('/users/:userId/investments', getUserInvestmentDetails);
 
 export default router;

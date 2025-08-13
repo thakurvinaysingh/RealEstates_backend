@@ -12,7 +12,9 @@ const userSchema = new mongoose.Schema({
     countryCode: { type: String, required: true },
     phoneNumber:  { type: String, required: true }
   },
-
+   // NEW: block/unblock
+  status: { type: String, enum: ['active', 'blocked'], default: 'active', index: true },
+  
   // email verification
   isEmailVerified:      { type: Boolean, default: false },
   emailOtpCode:         { type: String },
