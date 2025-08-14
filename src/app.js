@@ -9,6 +9,7 @@ import propertyRoutes from './routes/properties.js';
 import adminRoutes from './routes/admin.js';
 import errorHandler from './utils/errorHandler.js';
 import investRoutes  from './routes/investRoutes.js';
+import userRoutes from './routes/userRoutes.js';
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 
@@ -34,6 +35,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/properties', propertyRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/investments',investRoutes);
+app.use('/api/user', userRoutes);
 
 
 

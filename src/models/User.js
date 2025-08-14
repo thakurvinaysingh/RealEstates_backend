@@ -14,7 +14,8 @@ const userSchema = new mongoose.Schema({
   },
    // NEW: block/unblock
   status: { type: String, enum: ['active', 'blocked'], default: 'active', index: true },
-  
+  avatarUrl: { type: String },
+
   // email verification
   isEmailVerified:      { type: Boolean, default: false },
   emailOtpCode:         { type: String },

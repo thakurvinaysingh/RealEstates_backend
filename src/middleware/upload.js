@@ -52,6 +52,16 @@ export function getImageUrls(files) {
   return files.map(file => getImageUrl(file.filename));
 }
 
+export const uploadAvatar = multer({
+  storage,
+  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB
+  fileFilter: (_req, file, cb) => {
+    if (!/image\/(png|jpe?g|webp)/.test(file.mimetype)) {
+      return cb(new Error('Only PNG/JPG/WEBP allowed'));
+    }
+    cb(null, true);
+  }
+});
 
 // // src/middleware/upload.js
 // import multer from 'multer';
